@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v4.0.0](https://github.com/voxpupuli/puppet-nginx/tree/v4.0.0) (2022-02-14)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-nginx/compare/v3.3.0...v4.0.0)
+
+**Breaking changes:**
+
+- \(1372\) Drop run\_dir and make client\_body\_temp\_path/proxy\_temp\_path optional [\#1478](https://github.com/voxpupuli/puppet-nginx/pull/1478) ([b4ldr](https://github.com/b4ldr))
+
+**Implemented enhancements:**
+
+- Add create\_resources for nginx\_snippets [\#1487](https://github.com/voxpupuli/puppet-nginx/pull/1487) ([aba-rechsteiner](https://github.com/aba-rechsteiner))
+- proxy: set header X-Forwarded-Host [\#1483](https://github.com/voxpupuli/puppet-nginx/pull/1483) ([nod0n](https://github.com/nod0n))
+- Add support for sieve protocol [\#1477](https://github.com/voxpupuli/puppet-nginx/pull/1477) ([tjikkun](https://github.com/tjikkun))
+
+**Closed issues:**
+
+- Issue with run files for nginx start with system start [\#1372](https://github.com/voxpupuli/puppet-nginx/issues/1372)
+- Error when creating location '/' when $use\_default\_location not false [\#902](https://github.com/voxpupuli/puppet-nginx/issues/902)
+
+**Merged pull requests:**
+
+- Update mime types with upstream [\#1482](https://github.com/voxpupuli/puppet-nginx/pull/1482) ([adriankirchner](https://github.com/adriankirchner))
+
 ## [v3.3.0](https://github.com/voxpupuli/puppet-nginx/tree/v3.3.0) (2021-10-06)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-nginx/compare/v3.2.1...v3.3.0)
